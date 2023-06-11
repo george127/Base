@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom,sienna, #313131 );
+    padding: 70px;
+
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  
+  header {
+    margin-bottom: 40px;
+    margin-top: 6px;
+  }
+  
+  .first-header {
+    font-size: 23px;
+    margin-bottom: 20px;
+    color: #5c5c5c;
+  }
+  
+  p{
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #5c5c5c;
+  }
+  
+  form {
+    margin-bottom: 40px;
+  }
+  
+  form p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #5c5c5c;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+    text-align: left;
+    color:  #5c5c5c;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(236, 201, 185);
+  }
+  
+  input[type="submit"] {
+    background-color: rgb(184, 116, 85);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.2rem;
+  }
+
+  input[type="submit"]:hover {
+    background-color: sienna;
+  }
+  
+  .signup-link {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 20px;
+  }
+  
+  .signup-link a {
+    color: #504edd;
+    text-decoration: none;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+    input[type="text"],
+    input[type="password"] {
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    input[type="submit"] {
+      padding: 10px 20px;
+      font-size: 1rem;
+    }
+}  
