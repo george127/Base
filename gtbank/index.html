@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- ====== Css ==== -->
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+
+</head>
+<body>
+
+    <!-- ====== Header ======= -->
+    <header>
+        <div class="header-text">
+            <h2>Important Notice:</h2>
+            <p>Please be mindful of fake sites run by fraudulent parties posing as Guaranty Trust Bank Ltd or its affiliates. Do not disclose your personal information and financial details to anyone online or anywhere else.</p>
+        </div>
+    </header>
+    <!-- ====== End Header ====== -->
+
+    <!-- ====== First Nav ====== -->
+    <nav class="navbar nav navbar-expand-md">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown nationality">
+                <a style="color: #333;"  class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="./img/Nigeria.jpg" alt="Nigeria"></a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#"><img src="./img/Cote D'Ivoire.jpg" alt="">Cote D'Ivoire</a></li>
+                  <li><a class="dropdown-item" href="#"><img src="./img/Gambia.jpg" alt="">Gambia</a></li>
+                  <li><a class="dropdown-item" href="#"><img src="./img/Ghana.jpg" alt="">Ghana</a></li>
+                  <li><a class="dropdown-item" href="#"><img src="./img/Kenya.jpg" alt="">Kenya</a></li>
+                  <li><a class="dropdown-item" href="#"><img src="./img/Liberia.jpg" alt="">Liberia</a></li>
+                  <li><a class="dropdown-item" href="#"><img src="./img/Nigeria.jpg" alt="">Nigeria</a></li>
+                  <li><a class="dropdown-item" href="#"><img src="./img/Rwanda.jpg" alt="">Rwanda</a></li>
+                  <li><a class="dropdown-item" href="#"><img src="./img/Sierra Leone.jpg" alt="">Sierra Leone</a></li>
+                  <li><a class="dropdown-item" href="#"><img src="./img/Tanzania.jpg" alt="">Tarzania</a></li>
+                  <li><a class="dropdown-item" href="#"><img src="./img/Uganda.jpg" alt="">Uganda</a></li>
+                  <li><a class="dropdown-item" href="#"><img src="./img/United Kingdom.jpg" alt="">United Kingdom</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a style="color: #fff;"  class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Locate</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#"> <i class="fa fa-home"></i>Locate a Branch</a></li>
+                  <li><a class="dropdown-item" href="#"> <i class="fa fa-money-check"></i>Locate an ATM</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a style="color: #fff;"  class="nav-link active" aria-current="page" href="#">Media</a>
+              </li>
+              <li class="nav-item">
+                <a style="color: #fff;"  class="nav-link" href="#">Help Centre</a>
+              </li>
+              <li class="nav-item">
+                <a style="color: #fff;"  class="nav-link" href="#">Security</a>
+              </li>
+              <button id="search-toggle">                <i class="fa fa-search"></i>
+              </button>
+              <div id="search-container">
+              <input type="text" id="search-input" placeholder="Search">
+              <button id="search-button">Search</button>
+            </div>         
+            </ul>
+          </div>
+        </div>
+        <div class="log-in">
+            <a id="popup-trigger" href="#">
+                <i class="fa fa-lock"></i>
+                <span>Online Banking</span> LogIn
+                <i class="fa fa-arrow-circle-right"></i>
+            </a>
+          </div>
+
+          <div id="popup-container">
+            <div class="content">
+              <h2><a href="#">Personal</a></h2>
+              <h2><a href="#">Business</a></h2>
+            </div>
+            <div class="container">
+              <button id="login-button">Login</button>
+              <div class="link">
+                <p><a href="#">Register</a></p>
+              <p><a href="#">Demo</a></p>
+              </div>
+            </div>
+          </div>
+      </nav>
+    <!-- ====== End First NavBar ======= -->
+
+    <!-- ====== Second NavBar ======= -->
+    <nav class="navbar nav1 navbar-expand-md">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <button id="search-toggle1"><i class="fa fa-search"></i>
+        </button>
+        <div id="search-container1">
+        <input type="text" id="search-input1" placeholder="Search...">
+        <button id="search-button1">Search</button>
+      </div>  
+
+      <div class="log-in">
+        <a id="popup-trigger1" href="#">
+            <i class="fa fa-lock"></i>
+            LogIn
+        </a>
+      </div>
+
+      <div id="popup-container1">
+        <div class="content">
+          <h2><a href="#">Personal</a></h2>
+          <h2><a href="#">Business</a></h2>
+        </div>
+        <div class="container">
+          <button id="login-button1">Login</button>
+          <div class="link">
+            <p><a href="#">Register</a></p>
+          <p><a href="#">Demo</a></p>
+          </div>
+        </div>
+      </div>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <a href="#"><i class="fa fa-home"></i></a>
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Personal
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Accounts</a></li>
+                <li><a class="dropdown-item" href="#">Services</a></li>
+                <li><a class="dropdown-item" href="#">Cards</a></li>
+                <li><a class="dropdown-item" href="#">Loans</a></li>
+                <li><a class="dropdown-item" href="#">Ways To Bank</a></li>
+                <li><a class="dropdown-item" href="#">Non Resident Nigeria <br>
+                (NRN) Service</a></li>
+                <li><a class="dropdown-item" href="#">Ways To Bank</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Business
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Accounts</a></li>
+                <li><a class="dropdown-item" href="#">SME Banking</a></li>
+                <li><a class="dropdown-item" href="#">Business Banking</a></li>
+                <li><a class="dropdown-item" href="#">Commercial Banking</a></li>
+                <li><a class="dropdown-item" href="#">Coperate Banking</a></li>
+                <li><a class="dropdown-item" href="#">International Trade</a></li>
+                <li><a class="dropdown-item" href="#">Cards</a></li>
+                <li><a class="dropdown-item" href="#">Services</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                About Us
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Our Company</a></li>
+                <li><a class="dropdown-item" href="#">Careers</a></li>
+                <li><a class="dropdown-item" href="#">Coperate Social Responsibility</a></li>
+                <li><a class="dropdown-item" href="#">COVID-19 Guidance</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Investor Relations
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Proposed Corperate Re-organization</a></li>
+                <li><a class="dropdown-item" href="#">Corperate Information</a></li>
+                <li><a class="dropdown-item" href="#">financial Information</a></li>
+                <li><a class="dropdown-item" href="#">Invastor News</a></li>
+                <li><a class="dropdown-item" href="#">Outlook & Insights</a></li>
+                <li><a class="dropdown-item" href="#">Events</a></li>
+                <li><a class="dropdown-item" href="#">Annual Reports</a></li>
+                <li><a class="dropdown-item" href="#">ShereHolder Information</a></li>
+                <li><a class="dropdown-item" href="#">Other Information</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Open an Account
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <img class="Gtlogo" src="./img/Gtlogo.png" alt="">
+    </nav>
+    <!-- ====== End Second NavBar ======= -->
+
+    <!-- ====== Home ======= -->
+    <div class="slider-container">
+      <div class="slider">
+
+        <div id="popup-container">
+          <h1>Online Banking</h1>
+          <div class="content">
+            <h2><a href="#">Personal</a></h2>
+            <h2><a href="#">Business</a></h2>
+          </div>
+          <div class="container">
+            <button id="login-button">Login</button>
+            <div class="link">
+              <p><a href="#">Register</a></p>
+            <p><a href="#">Demo</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <img src="./img/home1.jpg" alt="Slide 1">
+          <div class="slide-text">
+            <h1>Bank for free</h1>
+            <h1>with <span style="color: orangered;">GTCrea8</span></h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non hic impedit nisi dolorem ex. Cum voluptatibus, ipsam deleniti quod hic, sed sequi cumque quasi delectus fugit expedita possimus natus fugiat?</p>
+            <button>
+              <a href="#"><span>Open a</span> GTCrea8 Account</a>
+            </button>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="./img/home2.jpg" alt="Slide 1">
+          <div class="slide-text">
+            <h1>Bank for free</h1>
+            <h1>with <span style="color: #fff;">GTCrea8</span></h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non hic impedit nisi dolorem ex. Cum voluptatibus, ipsam deleniti quod hic, sed sequi cumque quasi delectus fugit expedita possimus natus fugiat?</p>
+            <button>
+              <a href="#"><span>Open a</span> GTCrea8 Account</a>
+            </button>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="./img/home3.jpg" alt="Slide 1">
+          <div class="slide-text">
+            <h1>Bank for free</h1>
+            <h1>with <span style="color: #fff;">GTCrea8</span></h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non hic impedit nisi dolorem ex. Cum voluptatibus, ipsam deleniti quod hic, sed sequi cumque quasi delectus fugit expedita possimus natus fugiat?</p>
+            <button>
+              <a href="#"><span>Open a</span> GTCrea8 Account</a>
+            </button>
+          </div>
+        </div>
+        
+      </div>
+      <div class="slider-controls">
+        <button class="prev-button">&#10094;</button>
+        <button class="next-button">&#10095;</button>
+      </div>
+    </div>    
+    <!-- ====== End Home ======= -->
+
+    <main>
+    <!-- ====== Products ======= -->
+    <section class="product-container">
+      <div class="products">
+        <div class="title">
+          <h1>Innovative Banking Products</h1>
+          <p>Tailored to your lifestyle, designed for your <br> personal and business needs.</p>
+        </div>
+
+        <div class="products-item">
+        <div class="item-container">
+          <div class="items">
+            <img src="./img/Product1.jpg" alt="">
+            <h2>Open an Account Instantly</h2>
+            <p>Need an account? Open an account for your business, your child or yourself in minutes.</p>
+            <a href="#">Click here to start <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+          <div class="items">
+            <img src="./img/Product2.jpg" alt="">
+            <h2>GTCrea8</h2>
+            <p>Free is the new cool. Zero transfer fees. Zero SMS charge. Free ATM Card. Get a GTCrea8 account instantly</p>
+            <a href="#">Get Started <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+        <div class="item-container">
+          <div class="items">
+            <img src="./img/Product6.jpg" alt="">
+            <h2>Quick Credit</h2>
+            <p>Get up to N5 million in credit and pay back in 6-12 months. 2.0% monthly interest rate. No hidden fees.</p>
+            <a href="#">Get started now <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+          <div class="items">
+            <img src="./img/Product3.jpg" alt="">
+            <h2>Help Center</h2>
+            <p>Skip the queues and get all the answers you need right from your phone. Log your dispense errors from your banking app. Check our How-To Guide for quick fixes.
+            </p>
+            <a href="#">Read more <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+        </div>
+        <div class="products-item">
+        <div class="item-container">
+          <div class="items">
+            <img src="./img/Product5.jpg" alt="">
+            <h2>Going Beyond - The Digital Experience</h2>
+            <p>MD Segun Agbaje presents at SMW 2020</p>
+            <a href="#">Watch now <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+          <div class="items">
+            <img src="./img/Product7.jpg" alt="">
+            <h2>2022 GTCO Macro-economic Outlook</h2>
+            <p>Free is the new cool. Zero transfer fees. Zero SMS charge. Free ATM Card. Get a GTCrea8 account instantly</p>
+            <a href="#">Read the report <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+        <div class="item-container">
+          <div class="items">
+            <img src="./img/Product8.jpg" alt="">
+            <h2>Changemakers: Segun Agbaje</h2>
+            <p>Award-winning CEO building a great African institution through digital transformation</p>
+            <a href="#">Read More <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+          <div class="items">
+            <img src="./img/Product5.jpg" alt="">
+            <h2>The Corvus Magazine</h2>
+            <p>Read the 6th Edition of the Corvus Magazine
+            </p>
+            <a href="#">Read Full Magazine <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- ====== End Products ======= -->
+
+    <!-- ====== Intiatives ======= -->
+    <section class="initiative-container">
+      <h2>Our Initiatives</h2>
+      <div class="initiative-item">
+        <div class="initiative item1">
+          <p>Here is how we are supporting SMEs in the Food Industry</p>
+          <button>
+            <a href="#">Learn More<i class="fa fa-arrow-circle-right"></i></a>
+          </button>
+        </div>
+        <div class="initiative item2">
+          <p>Uncovering the best of modern African life &culture.</p>
+          <button>
+            <a href="#">Learn More<i class="fa fa-arrow-circle-right"></i></a>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- ====== End Intiatives ======= -->
+
+    <!-- ====== HelpIcon ======= -->
+    <div class="icon-container">
+      <div class="icons-items">
+      <div class="icons">
+        <div class="item-container">
+          <a href="#">
+            <i class="fa fa-map-marker-alt"></i>
+            <h2>Find A Branch</h2></a>
+        </div>
+        <div class="item-container">
+          <a href="#">
+            <i class="fa fa-download"></i>
+            <h2>Downloads</h2>
+          </a>
+        </div>
+        <div class="item-container">
+          <a href="#">
+            <i class="fa fa-cogs"></i>
+            <h2>Self Service</h2>
+          </a>
+        </div>
+        <div class="item-container">
+          <a href="#">
+            <i class="fa fa-question-circle"></i>
+            <h2>Help Centre</h2>
+          </a>
+        </div>
+      </div>
+      <div class="icons">
+        <div class="item-container">
+          <a href="#"><i class="fa fa-video"></i>
+            <h2>Video Banking</h2>
+          </a>
+        </div>
+        <div class="item-container">
+          <a href="#">
+            <i class="fa fa-play"></i>
+            <h2>HabariPlay</h2>
+          </a>
+        </div>
+        <div class="item-container">
+          <a href="#">
+            <i class="fa fa-chart-line"></i>
+            <h2>Investments</h2>
+          </a>
+        </div>
+        <div class="item-container">
+          <a href="#">
+            <i class="fa fa-credit-card"></i>
+            <h2>Pension</h2>
+          </a>
+        </div>
+      </div>
+      </div>
+    </div>
+    <!-- ====== End HelpIcon ======= -->
+
+    <!-- ====== Footer ======= -->
+    <footer>
+      <div class="footer">
+        <ul class="footer-menu">
+          <li>
+            <a class="footer-link" href="#">Personal</a>
+            <ul class="dropdown">
+              <li><a href="#">Savings Account</a></li>
+              <li><a href="#">Current Accounts</a></li>
+              <li><a href="#">Compare Accounts</a></li>
+              <li><a href="#">Cards</a></li>
+              <li><a href="#">Non Resident Nigerian (NRN)</a></li>
+              <li><a href="#">Loans</a></li>
+              <li><a href="#">Ways To Bank</a></li>
+              <li><a href="#">Private Banking</a></li>
+            </ul>
+          </li>
+          <li>
+            <a class="footer-link" href="#">Business</a>
+            <ul class="dropdown">
+              <li><a href="#">Business Banking</a></li>
+              <li><a href="#">Cards</a></li>
+              <li><a href="#">e-Banking Services</a></li>
+              <li><a href="#">Commercial Banking</a></li>
+              <li><a href="#">Corporate Banking</a></li>
+              <li><a href="#">Loans & Advances</a></li>
+              <li><a href="#">SME Banking</a></li>
+              <li><a href="#">HabariPay</a></li>
+            </ul>
+          </li>
+          <li>
+            <a class="footer-link" href="#">About Us</a>
+            <ul class="dropdown">             
+              <li><a href="#">Our Company</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Corporate Social Responsibility</a></li>
+              <li><a href="#">Investor Relations</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Squad by HabariPay</a></li>
+              <li><a href="#">Guaranty Trust Fund Managers</a></li>
+              <li><a href="#">Guaranty Trust Pension Managers</a></li>
+            </ul>
+          </li>
+          <li>
+            <a class="footer-link" href="#">Help &amp; Security</a>
+            <ul class="dropdown">
+              <li><a href="#">Account Reactivation</a></li>
+              <li><a href="#">Complaints & Enquiries</a></li>
+              <li><a href="#">Customer Feedback Survey</a></li>
+              <li><a href="#">Dispense Error</a></li>
+              <li><a href="#">Help Videos</a></li>
+              <li><a href="#">Self Service</a></li>
+              <li><a href="#">Security Centre</a></li>
+              <li><a href="#">Whistle Blower</a></li>
+            </ul>
+          </li>
+          <li>
+            <a class="footer-link" href="#">Quick Links</a>
+            <ul class="dropdown">
+              <li><a href="#">Find a Branch/ATM</a></li>
+              <li><a href="#">All your banking forms in one place</a></li>
+              <li><a href="#">Financial Calculators</a></li>
+              <li><a href="#">iRefer</a></li>
+              <li><a href="#">Media Centre</a></li>
+              <li><a href="#">Internal Links</a></li>
+              <li><a href="#">Video Banking</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <div class="contact-container">
+        <div class="contact">
+          <div class="img-container">
+            <img src="./img/logo.png" alt="">
+          </div>
+          <div class="number">
+            <p>+234 700 4826 66328</p>
+          </div>
+          <div class="number">
+            <p>+234 700 4826 66328</p>
+          </div>
+          <div class="number">
+            <p>+234 700 4826 66328</p>
+          </div>
+          <div class="number">
+            <p>+234 700 4826 66328</p>
+          </div>
+          <div class="number">
+            <p>+234 700 4826 66328</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright-container">
+        <div class="copyright">
+          <div class="text">
+            <p>© 2023 Guaranty Trust Bank Limited.  All Rights Reserved.</p>
+          </div>
+          <div class="text">
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Sitmap</a>
+          </div>
+          <div class="social-media">
+            <a href="https://www.facebook.com">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <!-- ====== End Footer ======= -->
+
+    </main>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
